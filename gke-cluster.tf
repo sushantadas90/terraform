@@ -7,8 +7,7 @@ resource "google_container_cluster" "gke-cluster" {
     preemptible  = true
     machine_type = "n1-standard-1"
     oauth_scopes = [
-      "https://www.googleapis.com/auth/logging.write",
-      "https://www.googleapis.com/auth/monitoring",
+      "https://www.googleapis.com/auth/cloud-platform"
     ]
   }
 }

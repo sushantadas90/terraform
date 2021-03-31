@@ -22,7 +22,7 @@ resource "kubernetes_deployment" "se-deployment" {
       }
       spec {
         container {
-          image = "gcr.io/mar-roidtc511/external:v1.0"
+          image = "gcr.io/positive-tempo-309316/external-image:latest"
           name  = "external-image"
 
           port {

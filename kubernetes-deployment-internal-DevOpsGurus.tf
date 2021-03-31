@@ -22,7 +22,7 @@ resource "kubernetes_deployment" "si-deployment" {
       }
       spec {
         container {
-          image = "gcr.io/mar-roidtc511/internal:v1.0"
+          image = "gcr.io/positive-tempo-309316/internal-image:latest"
           name  = "internal-image"
 
           port {
