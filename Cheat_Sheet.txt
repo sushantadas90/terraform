@@ -6,5 +6,5 @@ terrafom plan
 # Create everything
 terraform apply -auto-approve
 
-# Delete everything
+# Delete everything.
 terraform destroy -auto-approve
